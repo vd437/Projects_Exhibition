@@ -7,12 +7,12 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 pt-16">
+    <section className="min-h-screen flex items-center justify-center px-4 pt-16 transition-smooth">
       <div className="container mx-auto text-center animate-fade-in">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 gradient-hero bg-clip-text text-transparent">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-primary">
           معرض أعمالي
         </h1>
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-4">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-4 text-foreground">
           صفحات الهبوط
         </h2>
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">

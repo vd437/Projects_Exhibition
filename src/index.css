@@ -66,7 +66,7 @@ All colors MUST be HSL.
     --background: 222 47% 11%;
     --foreground: 210 40% 98%;
 
-    --card: 222 47% 11%;
+    --card: 222 47% 13%;
     --card-foreground: 210 40% 98%;
 
     --popover: 222 47% 11%;
@@ -87,9 +87,16 @@ All colors MUST be HSL.
     --destructive: 0 63% 31%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 217 33% 18%;
+    --border: 217 33% 20%;
     --input: 217 33% 18%;
     --ring: 217 91% 60%;
+    
+    /* Dark mode gradient and effects */
+    --gradient-hero: linear-gradient(135deg, hsl(217 91% 60%), hsl(262 83% 58%));
+    --gradient-card: linear-gradient(180deg, hsl(222 47% 13%), hsl(222 47% 11%));
+    --shadow-soft: 0 4px 20px -2px hsl(0 0% 0% / 0.4);
+    --shadow-hover: 0 8px 30px -4px hsl(217 91% 60% / 0.5);
+    
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
